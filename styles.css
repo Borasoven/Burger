@@ -25,11 +25,9 @@ padding-top: 20px;
 ul a{
     font-size: 1.5rem; text-decoration: none; color: antiquewhite; font-family: "Sansita Swashed", system-ui;
 }
-.bora{
-    list-style-type: none;
-}
+
 .logo{
-font-family: ;
+/* font-family: ; */
 font-size: 3rem;
 padding-left:30px ;
 padding-top: 20px; color: antiquewhite;
@@ -45,14 +43,64 @@ padding-top: 20px; color: antiquewhite;
 img{
 width:70%;
 }.hero{
-    display: flex;
+    display: flex; position: relative;
 } 
 p{
     color: antiquewhite; font-size: 2.5rem; text-align: center;font-family: "Lexend Zetta", sans-serif;
+    font-style:bold ; font: weight 700px;  line-height: 100%; letter-spacing: 0; padding-bottom: 20PX; padding-top: 10px;
 }
 span{
-    font-size: 5rem; font-family: "Sansita Swashed", system-ui;
+    font-size: 5rem; font-family: "Sansita Swashed", system-ui; font-weight: 700px; font-style: bold;
 }
 .small{
-    font-size: 1rem;
+    font-size: 1rem; font-weight: 700; font-size: bold;
+}
+
+.burger-gallery{
+display: flex;
+gap: 15px; position: absolute; top: 500px; left: 70px;
+
+}
+    
+
+.burger-gallery img{
+    width: 65px;
+    height: 55px;
+    top: 865px; 
+    left: 216px;
+    border-radius: 8px; object-fit: cover;
+}
+
+.slider-dots{
+     display: flex; gap: 10px; position: absolute;  left: 50%; top: 430px; right: 20, 10; z-index: 10;
+}
+.slider-dots span{
+    width:12px ; height: 12px; background-color: antiquewhite; border-radius: 50%; display: block;
+
+}
+
+.menu{
+    font-size: 3rem;
+    text-transform:uppercase ;
+    
+}
+.h1{
+    text-align: center;
+    
+}
+
+.card img{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+}
+
+ .card{
+background-color: #415f55;
+width: 250px;
+color: fbfada;
+font-family:"lexend zetta" sans-serif ;
+text-align: center;
+padding:24px 0 ;
+
 }
