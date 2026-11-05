@@ -86,13 +86,14 @@ gap: 15px; position: absolute; top: 500px; left: 70px;
 }
 .h1{
     text-align: center;
+    color: antiquewhite; font-size: 40px;
     
 }
 
 .card img{
     width: 100%;
-    display: flex;
-    gap: 50px;
+    display: block;
+ height: 180px; object-fit: cover;
 }
 
  .card{
@@ -101,6 +102,18 @@ width: 250px;
 color: fbfada;
 font-family:"lexend zetta" sans-serif ;
 text-align: center;
-padding:24px 0 ;
+padding:24px 0 ; overflow: hidden;
 
+}
+.menu{
+width: 100%; display: grid;
+grid-template-columns: 4,1fr; gap:20px;
+}
+
+
+
+
+.container{
+    display: grid; grid-template-columns: repeat(4,minimax(0,1fr)); gap: 20px;
+    width: 100px; box-sizing: border-box;
 }
