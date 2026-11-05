@@ -84,36 +84,32 @@ gap: 15px; position: absolute; top: 500px; left: 70px;
     text-transform:uppercase ;
     
 }
-.h1{
+h1{
     text-align: center;
     color: antiquewhite; font-size: 40px;
     
 }
+h2{
+    color: antiquewhite;
+    text-align: center;
+}
 
+
+.container {
+    display: grid;
+     grid-template-columns: repeat(4,1fr);
+      row-gap: 62px; width: 50%; height: 100%;
+      margin: auto; gap: 20px;
+}
+.card{
+    background: #415f55;
+    font-family: "lexent" sans-serif;
+    font-size: 0.75rem;
+    border-radius: 20px;
+    text-align: center;
+    color: #fbfada;
+}
 .card img{
     width: 100%;
-    display: block;
- height: 180px; object-fit: cover;
-}
-
- .card{
-background-color: #415f55;
-width: 250px;
-color: fbfada;
-font-family:"lexend zetta" sans-serif ;
-text-align: center;
-padding:24px 0 ; overflow: hidden;
-
-}
-.menu{
-width: 100%; display: grid;
-grid-template-columns: 4,1fr; gap:20px;
-}
-
-
-
-
-.container{
-    display: grid; grid-template-columns: repeat(4,minimax(0,1fr)); gap: 20px;
-    width: 100px; box-sizing: border-box;
+    margin-top: 10px;
 }
